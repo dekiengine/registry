@@ -30,35 +30,35 @@
       "latest": "1.0.0"
     },
     {
-      "id": "deki:desktop-hal",
+      "id": "deki:desktop-integration",
       "displayName": "Desktop Integration",
       "description": "Desktop platform memory and filesystem providers",
       "repo": "dekiengine/deki-desktop-integration",
       "latest": "1.0.0"
     },
     {
-      "id": "deki:sdl3",
+      "id": "deki:sdl3-integration",
       "displayName": "SDL3 Integration",
       "description": "SDL3 display, input, and filesystem integration",
       "repo": "dekiengine/deki-sdl3-integration",
       "latest": "1.0.0"
     },
     {
-      "id": "deki:esp32-hal",
+      "id": "deki:esp32-integration",
       "displayName": "ESP32 Integration",
       "description": "ESP32 memory, filesystem, serial, and SD card providers",
       "repo": "dekiengine/deki-esp32-integration",
       "latest": "1.0.0"
     },
     {
-      "id": "deki:lovyangfx",
+      "id": "deki:lovyangfx-integration",
       "displayName": "LovyanGFX Integration",
       "description": "LovyanGFX display and touch panel integration",
       "repo": "dekiengine/deki-lovyangfx-integration",
       "latest": "1.0.0"
     },
     {
-      "id": "deki:stm32-hal",
+      "id": "deki:stm32-integration",
       "displayName": "STM32 Integration",
       "description": "STM32 platform integration",
       "repo": "dekiengine/deki-stm32-integration",

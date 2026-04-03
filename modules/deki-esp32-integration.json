@@ -1,5 +1,5 @@
 {
-  "id": "deki:esp32-hal",
+  "id": "deki:esp32-integration",
   "displayName": "ESP32 Integration",
   "description": "ESP32 memory, filesystem, serial, and SD card providers",
   "repo": "dekiengine/deki-esp32-integration",

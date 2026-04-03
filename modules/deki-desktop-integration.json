@@ -1,5 +1,5 @@
 {
-  "id": "deki:desktop-hal",
+  "id": "deki:desktop-integration",
   "displayName": "Desktop Integration",
   "description": "Desktop platform memory and filesystem providers",
   "repo": "dekiengine/deki-desktop-integration",
