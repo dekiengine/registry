@@ -1,0 +1,8 @@
+{
+  "id": "deki:desktop-hal",
+  "displayName": "Desktop Integration",
+  "description": "Desktop platform memory and filesystem providers",
+  "repo": "dekiengine/deki-desktop-integration",
+  "versions": ["1.0.0"],
+  "latest": "1.0.0"
+}

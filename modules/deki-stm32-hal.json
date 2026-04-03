@@ -1,0 +1,8 @@
+{
+  "id": "deki:stm32-hal",
+  "displayName": "STM32 Integration",
+  "description": "STM32 platform integration",
+  "repo": "dekiengine/deki-stm32-integration",
+  "versions": ["1.0.0"],
+  "latest": "1.0.0"
+}

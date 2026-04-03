@@ -1,0 +1,8 @@
+{
+  "id": "deki:sdl3",
+  "displayName": "SDL3 Integration",
+  "description": "SDL3 display, input, and filesystem integration",
+  "repo": "dekiengine/deki-sdl3-integration",
+  "versions": ["1.0.0"],
+  "latest": "1.0.0"
+}

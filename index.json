@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "modules": [
+    {
+      "id": "deki:2d",
+      "displayName": "2D",
+      "description": "Sprites, text, animations, gradients, buttons, scrolling",
+      "repo": "dekiengine/deki-2d",
+      "latest": "1.0.0"
+    },
+    {
+      "id": "deki:rendering",
+      "displayName": "Rendering",
+      "description": "Core rendering system with camera and renderer components",
+      "repo": "dekiengine/deki-rendering",
+      "latest": "1.0.0"
+    },
+    {
+      "id": "deki:tween",
+      "displayName": "Tween",
+      "description": "Animation tweening with 30+ easing functions",
+      "repo": "dekiengine/deki-tween",
+      "latest": "1.0.0"
+    },
+    {
+      "id": "deki:input",
+      "displayName": "Input",
+      "description": "Input handling and collision detection",
+      "repo": "dekiengine/deki-input",
+      "latest": "1.0.0"
+    },
+    {
+      "id": "deki:desktop-hal",
+      "displayName": "Desktop Integration",
+      "description": "Desktop platform memory and filesystem providers",
+      "repo": "dekiengine/deki-desktop-integration",
+      "latest": "1.0.0"
+    },
+    {
+      "id": "deki:sdl3",
+      "displayName": "SDL3 Integration",
+      "description": "SDL3 display, input, and filesystem integration",
+      "repo": "dekiengine/deki-sdl3-integration",
+      "latest": "1.0.0"
+    },
+    {
+      "id": "deki:esp32-hal",
+      "displayName": "ESP32 Integration",
+      "description": "ESP32 memory, filesystem, serial, and SD card providers",
+      "repo": "dekiengine/deki-esp32-integration",
+      "latest": "1.0.0"
+    },
+    {
+      "id": "deki:lovyangfx",
+      "displayName": "LovyanGFX Integration",
+      "description": "LovyanGFX display and touch panel integration",
+      "repo": "dekiengine/deki-lovyangfx-integration",
+      "latest": "1.0.0"
+    },
+    {
+      "id": "deki:stm32-hal",
+      "displayName": "STM32 Integration",
+      "description": "STM32 platform integration",
+      "repo": "dekiengine/deki-stm32-integration",
+      "latest": "1.0.0"
+    }
+  ]
+}

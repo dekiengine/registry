@@ -1,0 +1,8 @@
+{
+  "id": "deki:rendering",
+  "displayName": "Rendering",
+  "description": "Core rendering system with camera and renderer components",
+  "repo": "dekiengine/deki-rendering",
+  "versions": ["1.0.0"],
+  "latest": "1.0.0"
+}
