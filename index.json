@@ -2,67 +2,76 @@
   "schemaVersion": 1,
   "modules": [
     {
-      "id": "deki:2d",
+      "id": "deki-2d",
       "displayName": "2D",
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "repo": "dekiengine/deki-2d",
-      "latest": "1.0.0"
+      "latest": "1.0.0",
+      "requires": ["deki-rendering", "deki-input"]
     },
     {
-      "id": "deki:rendering",
+      "id": "deki-rendering",
       "displayName": "Rendering",
       "description": "Core rendering system with camera and renderer components",
       "repo": "dekiengine/deki-rendering",
-      "latest": "1.0.0"
+      "latest": "1.0.0",
+      "requires": []
     },
     {
-      "id": "deki:tween",
+      "id": "deki-tween",
       "displayName": "Tween",
       "description": "Animation tweening with 30+ easing functions",
       "repo": "dekiengine/deki-tween",
-      "latest": "1.0.0"
+      "latest": "1.0.0",
+      "requires": []
     },
     {
-      "id": "deki:input",
+      "id": "deki-input",
       "displayName": "Input",
       "description": "Input handling and collision detection",
       "repo": "dekiengine/deki-input",
-      "latest": "1.0.0"
+      "latest": "1.0.0",
+      "requires": ["deki-rendering"]
     },
     {
-      "id": "deki:desktop-integration",
+      "id": "deki-desktop-integration",
       "displayName": "Desktop Integration",
       "description": "Desktop platform memory and filesystem providers",
       "repo": "dekiengine/deki-desktop-integration",
-      "latest": "1.0.0"
+      "latest": "1.0.0",
+      "requires": []
     },
     {
-      "id": "deki:sdl3-integration",
+      "id": "deki-sdl3-integration",
       "displayName": "SDL3 Integration",
       "description": "SDL3 display, input, and filesystem integration",
       "repo": "dekiengine/deki-sdl3-integration",
-      "latest": "1.0.0"
+      "latest": "1.0.0",
+      "requires": ["deki-input"]
     },
     {
-      "id": "deki:esp32-integration",
+      "id": "deki-esp32-integration",
       "displayName": "ESP32 Integration",
       "description": "ESP32 memory, filesystem, serial, and SD card providers",
       "repo": "dekiengine/deki-esp32-integration",
-      "latest": "1.0.0"
+      "latest": "1.0.0",
+      "requires": []
     },
     {
-      "id": "deki:lovyangfx-integration",
+      "id": "deki-lovyangfx-integration",
       "displayName": "LovyanGFX Integration",
       "description": "LovyanGFX display and touch panel integration",
       "repo": "dekiengine/deki-lovyangfx-integration",
-      "latest": "1.0.0"
+      "latest": "1.0.0",
+      "requires": []
     },
     {
-      "id": "deki:stm32-integration",
+      "id": "deki-stm32-integration",
       "displayName": "STM32 Integration",
       "description": "STM32 platform integration",
       "repo": "dekiengine/deki-stm32-integration",
-      "latest": "1.0.0"
+      "latest": "1.0.0",
+      "requires": []
     }
   ]
 }

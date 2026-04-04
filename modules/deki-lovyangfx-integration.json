@@ -1,8 +1,9 @@
 {
-  "id": "deki:lovyangfx-integration",
+  "id": "deki-lovyangfx-integration",
   "displayName": "LovyanGFX Integration",
   "description": "LovyanGFX display and touch panel integration",
   "repo": "dekiengine/deki-lovyangfx-integration",
   "versions": ["1.0.0"],
-  "latest": "1.0.0"
+  "latest": "1.0.0",
+  "requires": []
 }

@@ -1,8 +1,9 @@
 {
-  "id": "deki:2d",
+  "id": "deki-2d",
   "displayName": "2D",
   "description": "Sprites, text, animations, gradients, buttons, scrolling",
   "repo": "dekiengine/deki-2d",
   "versions": ["1.0.0"],
-  "latest": "1.0.0"
+  "latest": "1.0.0",
+  "requires": ["deki-rendering", "deki-input"]
 }

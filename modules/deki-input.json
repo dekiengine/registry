@@ -1,8 +1,9 @@
 {
-  "id": "deki:input",
+  "id": "deki-input",
   "displayName": "Input",
   "description": "Input handling and collision detection",
   "repo": "dekiengine/deki-input",
   "versions": ["1.0.0"],
-  "latest": "1.0.0"
+  "latest": "1.0.0",
+  "requires": ["deki-rendering"]
 }
