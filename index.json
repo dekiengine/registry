@@ -72,6 +72,54 @@
       "repo": "dekiengine/deki-stm32-integration",
       "latest": "1.0.0",
       "requires": []
+    },
+    {
+      "id": "deki-rtc",
+      "displayName": "RTC",
+      "description": "Real-time clock peripheral interface and DS3231 (I\u00b2C) backend",
+      "repo": "dekiengine/deki-rtc",
+      "latest": "1.0.0",
+      "requires": []
+    },
+    {
+      "id": "deki-gps",
+      "displayName": "GPS",
+      "description": "GPS peripheral interface and NMEA-over-UART backend",
+      "repo": "dekiengine/deki-gps",
+      "latest": "1.0.0",
+      "requires": []
+    },
+    {
+      "id": "deki-imu",
+      "displayName": "IMU",
+      "description": "Accelerometer + gyroscope peripheral interface with LSM6DS3 backend (hardware pedometer)",
+      "repo": "dekiengine/deki-imu",
+      "latest": "1.0.0",
+      "requires": []
+    },
+    {
+      "id": "deki-audio",
+      "displayName": "Audio",
+      "description": "Audio playback peripheral interface with MAX98357 (I²S) backend",
+      "repo": "dekiengine/deki-audio",
+      "latest": "1.0.0",
+      "requires": []
+    },
+    {
+      "id": "deki-particles",
+      "displayName": "Particles",
+      "description": "Modular particle emitter (gravity, drag, velocity, lifetime modifiers)",
+      "repo": "dekiengine/deki-particles",
+      "latest": "1.0.0",
+      "requires": ["deki-rendering", "deki-2d"]
+    },
+    {
+      "id": "deki-tiledmapeditor-integration",
+      "displayName": "Tiled Map Editor Integration",
+      "description": "Loads and renders maps authored in Tiled (.tmj) with chunk streaming",
+      "repo": "dekiengine/deki-tiledmapeditor-integration",
+      "latest": "1.0.0",
+      "requires": ["deki-rendering", "deki-2d"]
     }
   ]
 }
