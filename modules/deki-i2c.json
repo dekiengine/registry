@@ -1,0 +1,9 @@
+{
+  "id": "deki-i2c",
+  "displayName": "I2C",
+  "description": "I²C bus peripheral interface with an editor-configurable bus component",
+  "repo": "dekiengine/deki-i2c",
+  "versions": ["1.0.0"],
+  "latest": "1.0.0",
+  "requires": []
+}

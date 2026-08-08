@@ -1,0 +1,9 @@
+{
+  "id": "deki-uart",
+  "displayName": "UART",
+  "description": "UART serial peripheral interface",
+  "repo": "dekiengine/deki-uart",
+  "versions": ["1.0.0"],
+  "latest": "1.0.0",
+  "requires": []
+}

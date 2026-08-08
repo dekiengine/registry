@@ -5,5 +5,5 @@
   "repo": "dekiengine/deki-lovyangfx-integration",
   "versions": ["1.0.0"],
   "latest": "1.0.0",
-  "requires": []
+  "requires": ["deki-i2c"]
 }

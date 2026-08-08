@@ -1,0 +1,9 @@
+{
+  "id": "deki-i2s",
+  "displayName": "I2S",
+  "description": "I²S audio bus peripheral interface",
+  "repo": "dekiengine/deki-i2s",
+  "versions": ["1.0.0"],
+  "latest": "1.0.0",
+  "requires": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "deki-fsm",
+  "displayName": "FSM",
+  "description": "Visual state machines with per-state action stacks and event-wired transitions",
+  "repo": "dekiengine/deki-fsm",
+  "versions": ["1.0.0"],
+  "latest": "1.0.0",
+  "requires": ["deki-nodegraph", "deki-2d", "deki-tween"]
+}

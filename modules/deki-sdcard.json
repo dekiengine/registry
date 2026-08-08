@@ -1,0 +1,9 @@
+{
+  "id": "deki-sdcard",
+  "displayName": "SD Card",
+  "description": "SD card interface: mount, card state, capacity, and filesystem access",
+  "repo": "dekiengine/deki-sdcard",
+  "versions": ["1.0.0"],
+  "latest": "1.0.0",
+  "requires": []
+}

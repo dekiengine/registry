@@ -55,7 +55,7 @@
       "description": "ESP32 memory, filesystem, serial, and SD card providers",
       "repo": "dekiengine/deki-esp32-integration",
       "latest": "1.0.0",
-      "requires": []
+      "requires": ["deki-wifi", "deki-ble", "deki-http", "deki-i2s", "deki-uart", "deki-i2c", "deki-sdcard"]
     },
     {
       "id": "deki-lovyangfx-integration",
@@ -63,7 +63,7 @@
       "description": "LovyanGFX display and touch panel integration",
       "repo": "dekiengine/deki-lovyangfx-integration",
       "latest": "1.0.0",
-      "requires": []
+      "requires": ["deki-i2c"]
     },
     {
       "id": "deki-stm32-integration",
@@ -76,10 +76,10 @@
     {
       "id": "deki-rtc",
       "displayName": "RTC",
-      "description": "Real-time clock peripheral interface and DS3231 (I\u00b2C) backend",
+      "description": "Real-time clock peripheral interface and DS3231 (I²C) backend",
       "repo": "dekiengine/deki-rtc",
       "latest": "1.0.0",
-      "requires": []
+      "requires": ["deki-i2c"]
     },
     {
       "id": "deki-gps",
@@ -87,7 +87,7 @@
       "description": "GPS peripheral interface and NMEA-over-UART backend",
       "repo": "dekiengine/deki-gps",
       "latest": "1.0.0",
-      "requires": []
+      "requires": ["deki-http", "deki-uart"]
     },
     {
       "id": "deki-imu",
@@ -95,7 +95,7 @@
       "description": "Accelerometer + gyroscope peripheral interface with LSM6DS3 backend (hardware pedometer)",
       "repo": "dekiengine/deki-imu",
       "latest": "1.0.0",
-      "requires": []
+      "requires": ["deki-i2c"]
     },
     {
       "id": "deki-audio",
@@ -103,7 +103,7 @@
       "description": "Audio playback peripheral interface with MAX98357 (I²S) backend",
       "repo": "dekiengine/deki-audio",
       "latest": "1.0.0",
-      "requires": []
+      "requires": ["deki-i2s"]
     },
     {
       "id": "deki-particles",
@@ -111,7 +111,7 @@
       "description": "Modular particle emitter (gravity, drag, velocity, lifetime modifiers)",
       "repo": "dekiengine/deki-particles",
       "latest": "1.0.0",
-      "requires": ["deki-rendering", "deki-2d"]
+      "requires": ["deki-nodegraph", "deki-rendering", "deki-2d"]
     },
     {
       "id": "deki-tiledmapeditor-integration",
@@ -119,7 +119,87 @@
       "description": "Loads and renders maps authored in Tiled (.tmj) with chunk streaming",
       "repo": "dekiengine/deki-tiledmapeditor-integration",
       "latest": "1.0.0",
-      "requires": ["deki-rendering", "deki-2d"]
+      "requires": ["deki-2d", "deki-rendering"]
+    },
+    {
+      "id": "deki-nodegraph",
+      "displayName": "Node Graph",
+      "description": "Generic node graph editor: canvas view, domains, undo, and node registration",
+      "repo": "dekiengine/deki-nodegraph",
+      "latest": "1.0.0",
+      "requires": []
+    },
+    {
+      "id": "deki-fsm",
+      "displayName": "FSM",
+      "description": "Visual state machines with per-state action stacks and event-wired transitions",
+      "repo": "dekiengine/deki-fsm",
+      "latest": "1.0.0",
+      "requires": ["deki-nodegraph", "deki-2d", "deki-tween"]
+    },
+    {
+      "id": "deki-i2c",
+      "displayName": "I2C",
+      "description": "I²C bus peripheral interface with an editor-configurable bus component",
+      "repo": "dekiengine/deki-i2c",
+      "latest": "1.0.0",
+      "requires": []
+    },
+    {
+      "id": "deki-i2s",
+      "displayName": "I2S",
+      "description": "I²S audio bus peripheral interface",
+      "repo": "dekiengine/deki-i2s",
+      "latest": "1.0.0",
+      "requires": []
+    },
+    {
+      "id": "deki-uart",
+      "displayName": "UART",
+      "description": "UART serial peripheral interface",
+      "repo": "dekiengine/deki-uart",
+      "latest": "1.0.0",
+      "requires": []
+    },
+    {
+      "id": "deki-ble",
+      "displayName": "BLE",
+      "description": "Bluetooth Low Energy interface: scanning, advertising, GATT server, connections",
+      "repo": "dekiengine/deki-ble",
+      "latest": "1.0.0",
+      "requires": []
+    },
+    {
+      "id": "deki-wifi",
+      "displayName": "WiFi",
+      "description": "WiFi interface: connect, disconnect, state, and access point scanning",
+      "repo": "dekiengine/deki-wifi",
+      "latest": "1.0.0",
+      "requires": []
+    },
+    {
+      "id": "deki-http",
+      "displayName": "HTTP",
+      "description": "HTTP client facade with a WinHTTP desktop backend",
+      "repo": "dekiengine/deki-http",
+      "latest": "1.0.0",
+      "requires": []
+    },
+    {
+      "id": "deki-json",
+      "displayName": "JSON",
+      "description": "JSON parsing and serialization backed by cJSON",
+      "repo": "dekiengine/deki-json",
+      "latest": "1.0.0",
+      "requires": []
+    },
+    {
+      "id": "deki-sdcard",
+      "displayName": "SD Card",
+      "description": "SD card interface: mount, card state, capacity, and filesystem access",
+      "repo": "dekiengine/deki-sdcard",
+      "latest": "1.0.0",
+      "requires": []
     }
   ]
 }

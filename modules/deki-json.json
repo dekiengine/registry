@@ -1,0 +1,9 @@
+{
+  "id": "deki-json",
+  "displayName": "JSON",
+  "description": "JSON parsing and serialization backed by cJSON",
+  "repo": "dekiengine/deki-json",
+  "versions": ["1.0.0"],
+  "latest": "1.0.0",
+  "requires": []
+}

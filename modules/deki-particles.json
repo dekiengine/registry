@@ -1,0 +1,9 @@
+{
+  "id": "deki-particles",
+  "displayName": "Particles",
+  "description": "Modular particle emitter (gravity, drag, velocity, lifetime modifiers)",
+  "repo": "dekiengine/deki-particles",
+  "versions": ["1.0.0"],
+  "latest": "1.0.0",
+  "requires": ["deki-nodegraph", "deki-rendering", "deki-2d"]
+}

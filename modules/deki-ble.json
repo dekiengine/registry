@@ -1,0 +1,9 @@
+{
+  "id": "deki-ble",
+  "displayName": "BLE",
+  "description": "Bluetooth Low Energy interface: scanning, advertising, GATT server, connections",
+  "repo": "dekiengine/deki-ble",
+  "versions": ["1.0.0"],
+  "latest": "1.0.0",
+  "requires": []
+}
