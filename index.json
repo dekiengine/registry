@@ -86,7 +86,7 @@
       "displayName": "GPS",
       "description": "GPS peripheral interface and NMEA-over-UART backend",
       "repo": "dekiengine/deki-gps",
-      "latest": "1.0.0",
+      "latest": "1.0.1",
       "requires": ["deki-http", "deki-uart"]
     },
     {
@@ -180,9 +180,9 @@
     {
       "id": "deki-http",
       "displayName": "HTTP",
-      "description": "HTTP client facade with a WinHTTP desktop backend",
+      "description": "HTTP client facade with WinHTTP and curl backends",
       "repo": "dekiengine/deki-http",
-      "latest": "1.0.0",
+      "latest": "1.0.1",
       "requires": []
     },
     {

@@ -1,9 +1,9 @@
 {
   "id": "deki-http",
   "displayName": "HTTP",
-  "description": "HTTP client facade with a WinHTTP desktop backend",
+  "description": "HTTP client facade with WinHTTP and curl backends",
   "repo": "dekiengine/deki-http",
-  "versions": ["1.0.0"],
-  "latest": "1.0.0",
+  "versions": ["1.0.0", "1.0.1"],
+  "latest": "1.0.1",
   "requires": []
 }
