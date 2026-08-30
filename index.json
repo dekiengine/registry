@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "modules": [
+  "packages": [
     {
       "id": "deki-2d",
       "displayName": "2D",
