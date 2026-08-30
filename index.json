@@ -6,15 +6,18 @@
       "displayName": "2D",
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "repo": "dekiengine/deki-2d",
-      "latest": "1.0.0",
-      "requires": ["deki-rendering", "deki-input"]
+      "latest": "1.0.1",
+      "requires": [
+        "deki-rendering",
+        "deki-input"
+      ]
     },
     {
       "id": "deki-rendering",
       "displayName": "Rendering",
       "description": "Core rendering system with camera and renderer components",
       "repo": "dekiengine/deki-rendering",
-      "latest": "1.0.0",
+      "latest": "1.0.1",
       "requires": []
     },
     {
@@ -22,7 +25,7 @@
       "displayName": "Tween",
       "description": "Animation tweening with 30+ easing functions",
       "repo": "dekiengine/deki-tween",
-      "latest": "1.0.0",
+      "latest": "1.0.1",
       "requires": []
     },
     {
@@ -30,15 +33,17 @@
       "displayName": "Input",
       "description": "Input handling and collision detection",
       "repo": "dekiengine/deki-input",
-      "latest": "1.0.0",
-      "requires": ["deki-rendering"]
+      "latest": "1.0.1",
+      "requires": [
+        "deki-rendering"
+      ]
     },
     {
       "id": "deki-desktop-integration",
       "displayName": "Desktop Integration",
       "description": "Desktop platform memory and filesystem providers",
       "repo": "dekiengine/deki-desktop-integration",
-      "latest": "1.0.0",
+      "latest": "1.0.1",
       "requires": []
     },
     {
@@ -46,24 +51,36 @@
       "displayName": "SDL3 Integration",
       "description": "SDL3 display, input, and filesystem integration",
       "repo": "dekiengine/deki-sdl3-integration",
-      "latest": "1.0.0",
-      "requires": ["deki-input"]
+      "latest": "1.0.1",
+      "requires": [
+        "deki-input"
+      ]
     },
     {
       "id": "deki-esp32-integration",
       "displayName": "ESP32 Integration",
       "description": "ESP32 memory, filesystem, serial, and SD card providers",
       "repo": "dekiengine/deki-esp32-integration",
-      "latest": "1.0.0",
-      "requires": ["deki-wifi", "deki-ble", "deki-http", "deki-i2s", "deki-uart", "deki-i2c", "deki-sdcard"]
+      "latest": "1.0.1",
+      "requires": [
+        "deki-wifi",
+        "deki-ble",
+        "deki-http",
+        "deki-i2s",
+        "deki-uart",
+        "deki-i2c",
+        "deki-sdcard"
+      ]
     },
     {
       "id": "deki-lovyangfx-integration",
       "displayName": "LovyanGFX Integration",
       "description": "LovyanGFX display and touch panel integration",
       "repo": "dekiengine/deki-lovyangfx-integration",
-      "latest": "1.0.0",
-      "requires": ["deki-i2c"]
+      "latest": "1.0.1",
+      "requires": [
+        "deki-i2c"
+      ]
     },
     {
       "id": "deki-stm32-integration",
@@ -76,57 +93,73 @@
     {
       "id": "deki-rtc",
       "displayName": "RTC",
-      "description": "Real-time clock peripheral interface and DS3231 (I²C) backend",
+      "description": "Real-time clock peripheral interface and DS3231 (I\u00c2\u00b2C) backend",
       "repo": "dekiengine/deki-rtc",
-      "latest": "1.0.0",
-      "requires": ["deki-i2c"]
+      "latest": "1.0.1",
+      "requires": [
+        "deki-i2c"
+      ]
     },
     {
       "id": "deki-gps",
       "displayName": "GPS",
       "description": "GPS peripheral interface and NMEA-over-UART backend",
       "repo": "dekiengine/deki-gps",
-      "latest": "1.0.1",
-      "requires": ["deki-http", "deki-uart"]
+      "latest": "1.0.2",
+      "requires": [
+        "deki-http",
+        "deki-uart"
+      ]
     },
     {
       "id": "deki-imu",
       "displayName": "IMU",
       "description": "Accelerometer + gyroscope peripheral interface with LSM6DS3 backend (hardware pedometer)",
       "repo": "dekiengine/deki-imu",
-      "latest": "1.0.0",
-      "requires": ["deki-i2c"]
+      "latest": "1.0.1",
+      "requires": [
+        "deki-i2c"
+      ]
     },
     {
       "id": "deki-audio",
       "displayName": "Audio",
-      "description": "Audio playback peripheral interface with MAX98357 (I²S) backend",
+      "description": "Audio playback peripheral interface with MAX98357 (I\u00c2\u00b2S) backend",
       "repo": "dekiengine/deki-audio",
-      "latest": "1.0.0",
-      "requires": ["deki-i2s"]
+      "latest": "1.0.1",
+      "requires": [
+        "deki-i2s"
+      ]
     },
     {
       "id": "deki-particles",
       "displayName": "Particles",
       "description": "Modular particle emitter (gravity, drag, velocity, lifetime modifiers)",
       "repo": "dekiengine/deki-particles",
-      "latest": "1.0.0",
-      "requires": ["deki-nodegraph", "deki-rendering", "deki-2d"]
+      "latest": "1.0.1",
+      "requires": [
+        "deki-nodegraph",
+        "deki-rendering",
+        "deki-2d"
+      ]
     },
     {
       "id": "deki-tiledmapeditor-integration",
       "displayName": "Tiled Map Editor Integration",
       "description": "Loads and renders maps authored in Tiled (.tmj) with chunk streaming",
       "repo": "dekiengine/deki-tiledmapeditor-integration",
-      "latest": "1.0.0",
-      "requires": ["deki-2d", "deki-rendering"]
+      "latest": "1.0.1",
+      "requires": [
+        "deki-2d",
+        "deki-rendering"
+      ]
     },
     {
       "id": "deki-nodegraph",
       "displayName": "Node Graph",
       "description": "Generic node graph editor: canvas view, domains, undo, and node registration",
       "repo": "dekiengine/deki-nodegraph",
-      "latest": "1.0.0",
+      "latest": "1.0.1",
       "requires": []
     },
     {
@@ -134,13 +167,17 @@
       "displayName": "FSM",
       "description": "Visual state machines with per-state action stacks and event-wired transitions",
       "repo": "dekiengine/deki-fsm",
-      "latest": "1.0.0",
-      "requires": ["deki-nodegraph", "deki-2d", "deki-tween"]
+      "latest": "1.0.1",
+      "requires": [
+        "deki-nodegraph",
+        "deki-2d",
+        "deki-tween"
+      ]
     },
     {
       "id": "deki-i2c",
       "displayName": "I2C",
-      "description": "I²C bus peripheral interface with an editor-configurable bus component",
+      "description": "I\u00c2\u00b2C bus peripheral interface with an editor-configurable bus component",
       "repo": "dekiengine/deki-i2c",
       "latest": "1.0.0",
       "requires": []
@@ -148,7 +185,7 @@
     {
       "id": "deki-i2s",
       "displayName": "I2S",
-      "description": "I²S audio bus peripheral interface",
+      "description": "I\u00c2\u00b2S audio bus peripheral interface",
       "repo": "dekiengine/deki-i2s",
       "latest": "1.0.0",
       "requires": []
