@@ -7,6 +7,7 @@
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "repo": "dekiengine/deki-2d",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": [
         "deki-rendering",
         "deki-input"
@@ -18,6 +19,7 @@
       "description": "Audio playback peripheral interface with MAX98357 (I²S) backend",
       "repo": "dekiengine/deki-audio",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": [
         "deki-i2s"
       ]
@@ -28,6 +30,7 @@
       "description": "Bluetooth Low Energy interface: scanning, advertising, GATT server, connections",
       "repo": "dekiengine/deki-ble",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": []
     },
     {
@@ -36,6 +39,7 @@
       "description": "Desktop platform memory and filesystem providers",
       "repo": "dekiengine/deki-desktop-integration",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": []
     },
     {
@@ -44,6 +48,7 @@
       "description": "ESP32 memory, filesystem, serial, and SD card providers",
       "repo": "dekiengine/deki-esp32-integration",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": [
         "deki-wifi",
         "deki-ble",
@@ -60,6 +65,7 @@
       "description": "Visual state machines with per-state action stacks and event-wired transitions",
       "repo": "dekiengine/deki-fsm",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": [
         "deki-nodegraph",
         "deki-2d",
@@ -72,6 +78,7 @@
       "description": "GPS peripheral interface and NMEA-over-UART backend",
       "repo": "dekiengine/deki-gps",
       "latest": "1.0.1",
+      "minEngine": "1.1.0",
       "requires": [
         "deki-http",
         "deki-uart"
@@ -83,6 +90,7 @@
       "description": "HTTP client facade with WinHTTP and curl backends",
       "repo": "dekiengine/deki-http",
       "latest": "1.0.1",
+      "minEngine": "1.1.0",
       "requires": []
     },
     {
@@ -91,6 +99,7 @@
       "description": "I²C bus peripheral interface with an editor-configurable bus component",
       "repo": "dekiengine/deki-i2c",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": []
     },
     {
@@ -99,6 +108,7 @@
       "description": "I²S audio bus peripheral interface",
       "repo": "dekiengine/deki-i2s",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": []
     },
     {
@@ -107,6 +117,7 @@
       "description": "Accelerometer + gyroscope peripheral interface with LSM6DS3 backend (hardware pedometer)",
       "repo": "dekiengine/deki-imu",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": [
         "deki-i2c"
       ]
@@ -117,6 +128,7 @@
       "description": "Input handling and collision detection",
       "repo": "dekiengine/deki-input",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": [
         "deki-rendering"
       ]
@@ -127,6 +139,7 @@
       "description": "JSON parsing and serialization backed by cJSON",
       "repo": "dekiengine/deki-json",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": []
     },
     {
@@ -135,6 +148,7 @@
       "description": "LovyanGFX display and touch panel integration",
       "repo": "dekiengine/deki-lovyangfx-integration",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": [
         "deki-i2c"
       ]
@@ -145,6 +159,7 @@
       "description": "Generic node graph editor: canvas view, domains, undo, and node registration",
       "repo": "dekiengine/deki-nodegraph",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": []
     },
     {
@@ -153,6 +168,7 @@
       "description": "Modular particle emitter (gravity, drag, velocity, lifetime modifiers)",
       "repo": "dekiengine/deki-particles",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": [
         "deki-nodegraph",
         "deki-rendering",
@@ -165,6 +181,7 @@
       "description": "Core rendering system with camera and renderer components",
       "repo": "dekiengine/deki-rendering",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": []
     },
     {
@@ -173,6 +190,7 @@
       "description": "Real-time clock peripheral interface and DS3231 (I²C) backend",
       "repo": "dekiengine/deki-rtc",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": [
         "deki-i2c"
       ]
@@ -183,6 +201,7 @@
       "description": "SD card interface: mount, card state, capacity, and filesystem access",
       "repo": "dekiengine/deki-sdcard",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": []
     },
     {
@@ -191,6 +210,7 @@
       "description": "SDL3 display, input, and filesystem integration",
       "repo": "dekiengine/deki-sdl3-integration",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": [
         "deki-input"
       ]
@@ -201,6 +221,7 @@
       "description": "STM32 platform integration",
       "repo": "dekiengine/deki-stm32-integration",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": []
     },
     {
@@ -209,6 +230,7 @@
       "description": "Loads and renders maps authored in Tiled (.tmj) with chunk streaming",
       "repo": "dekiengine/deki-tiledmapeditor-integration",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": [
         "deki-2d",
         "deki-rendering"
@@ -220,6 +242,7 @@
       "description": "Animation tweening with 30+ easing functions",
       "repo": "dekiengine/deki-tween",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": []
     },
     {
@@ -228,6 +251,7 @@
       "description": "UART serial peripheral interface",
       "repo": "dekiengine/deki-uart",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": []
     },
     {
@@ -236,6 +260,7 @@
       "description": "WiFi interface: connect, disconnect, state, and access point scanning",
       "repo": "dekiengine/deki-wifi",
       "latest": "1.0.0",
+      "minEngine": "1.1.0",
       "requires": []
     }
   ]

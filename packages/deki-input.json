@@ -3,7 +3,12 @@
   "displayName": "Input",
   "description": "Input handling and collision detection",
   "repo": "dekiengine/deki-input",
-  "versions": ["1.0.0"],
+  "minEngine": "1.1.0",
+  "versions": [
+    "1.0.0"
+  ],
   "latest": "1.0.0",
-  "requires": ["deki-rendering"]
+  "requires": [
+    "deki-rendering"
+  ]
 }

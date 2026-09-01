@@ -14,7 +14,8 @@ import pathlib
 import sys
 
 ROOT = pathlib.Path(__file__).parent
-INDEX_FIELDS = ("id", "displayName", "description", "repo", "latest", "requires")
+INDEX_FIELDS = ("id", "displayName", "description", "repo", "latest", "minEngine",
+                "requires")
 
 def main() -> int:
     entries = []

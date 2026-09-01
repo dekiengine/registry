@@ -3,7 +3,10 @@
   "displayName": "Tween",
   "description": "Animation tweening with 30+ easing functions",
   "repo": "dekiengine/deki-tween",
-  "versions": ["1.0.0"],
+  "minEngine": "1.1.0",
+  "versions": [
+    "1.0.0"
+  ],
   "latest": "1.0.0",
   "requires": []
 }
