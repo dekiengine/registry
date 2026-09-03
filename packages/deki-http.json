@@ -3,11 +3,12 @@
   "displayName": "HTTP",
   "description": "HTTP client facade with WinHTTP and curl backends",
   "repo": "dekiengine/deki-http",
-  "minEngine": "1.1.0",
+  "minEngine": "1.2.0",
   "versions": [
     "1.0.0",
-    "1.0.1"
+    "1.0.1",
+    "1.1.0"
   ],
-  "latest": "1.0.1",
+  "latest": "1.1.0",
   "requires": []
 }

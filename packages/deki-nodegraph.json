@@ -3,10 +3,11 @@
   "displayName": "Node Graph",
   "description": "Generic node graph editor: canvas view, domains, undo, and node registration",
   "repo": "dekiengine/deki-nodegraph",
-  "minEngine": "1.1.0",
+  "minEngine": "1.2.0",
   "versions": [
-    "1.0.0"
+    "1.0.0",
+    "1.1.0"
   ],
-  "latest": "1.0.0",
+  "latest": "1.1.0",
   "requires": []
 }

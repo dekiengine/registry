@@ -3,10 +3,11 @@
   "displayName": "Desktop Integration",
   "description": "Desktop platform memory and filesystem providers",
   "repo": "dekiengine/deki-desktop-integration",
-  "minEngine": "1.1.0",
+  "minEngine": "1.2.0",
   "versions": [
-    "1.0.0"
+    "1.0.0",
+    "1.1.0"
   ],
-  "latest": "1.0.0",
+  "latest": "1.1.0",
   "requires": []
 }
