@@ -138,8 +138,8 @@
       "displayName": "JSON",
       "description": "JSON parsing and serialization backed by cJSON",
       "repo": "dekiengine/deki-json",
-      "latest": "1.0.0",
-      "minEngine": "1.1.0",
+      "latest": "1.1.0",
+      "minEngine": "1.2.0",
       "requires": []
     },
     {
