@@ -14,5 +14,6 @@
     "deki-nodegraph",
     "deki-rendering",
     "deki-2d"
-  ]
+  ],
+  "docs": "https://dekiengine.github.io/deki-particles/"
 }

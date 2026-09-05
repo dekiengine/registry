@@ -13,5 +13,6 @@
     "deki-nodegraph",
     "deki-2d",
     "deki-tween"
-  ]
+  ],
+  "docs": "https://dekiengine.github.io/deki-fsm/"
 }

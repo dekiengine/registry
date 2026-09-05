@@ -13,5 +13,6 @@
   "requires": [
     "deki-rendering",
     "deki-input"
-  ]
+  ],
+  "docs": "https://dekiengine.github.io/deki-2d/"
 }

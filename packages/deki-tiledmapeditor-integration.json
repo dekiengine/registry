@@ -13,5 +13,6 @@
   "requires": [
     "deki-2d",
     "deki-rendering"
-  ]
+  ],
+  "docs": "https://dekiengine.github.io/deki-tiledmapeditor-integration/"
 }

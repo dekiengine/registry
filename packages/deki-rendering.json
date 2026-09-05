@@ -10,5 +10,6 @@
     "1.2.0"
   ],
   "latest": "1.2.0",
-  "requires": []
+  "requires": [],
+  "docs": "https://dekiengine.github.io/deki-rendering/"
 }

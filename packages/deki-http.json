@@ -10,5 +10,6 @@
     "1.1.0"
   ],
   "latest": "1.1.0",
-  "requires": []
+  "requires": [],
+  "docs": "https://dekiengine.github.io/deki-http/"
 }

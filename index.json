@@ -11,7 +11,8 @@
       "requires": [
         "deki-rendering",
         "deki-input"
-      ]
+      ],
+      "docs": "https://dekiengine.github.io/deki-2d/"
     },
     {
       "id": "deki-audio",
@@ -22,7 +23,8 @@
       "minEngine": "1.2.0",
       "requires": [
         "deki-i2s"
-      ]
+      ],
+      "docs": "https://dekiengine.github.io/deki-audio/"
     },
     {
       "id": "deki-ble",
@@ -31,7 +33,8 @@
       "repo": "dekiengine/deki-ble",
       "latest": "1.1.0",
       "minEngine": "1.2.0",
-      "requires": []
+      "requires": [],
+      "docs": "https://dekiengine.github.io/deki-ble/"
     },
     {
       "id": "deki-desktop-integration",
@@ -40,7 +43,8 @@
       "repo": "dekiengine/deki-desktop-integration",
       "latest": "1.1.0",
       "minEngine": "1.2.0",
-      "requires": []
+      "requires": [],
+      "docs": "https://dekiengine.github.io/deki-desktop-integration/"
     },
     {
       "id": "deki-esp32-integration",
@@ -57,7 +61,8 @@
         "deki-uart",
         "deki-i2c",
         "deki-sdcard"
-      ]
+      ],
+      "docs": "https://dekiengine.github.io/deki-esp32-integration/"
     },
     {
       "id": "deki-fsm",
@@ -70,7 +75,8 @@
         "deki-nodegraph",
         "deki-2d",
         "deki-tween"
-      ]
+      ],
+      "docs": "https://dekiengine.github.io/deki-fsm/"
     },
     {
       "id": "deki-gps",
@@ -82,7 +88,8 @@
       "requires": [
         "deki-http",
         "deki-uart"
-      ]
+      ],
+      "docs": "https://dekiengine.github.io/deki-gps/"
     },
     {
       "id": "deki-http",
@@ -91,7 +98,8 @@
       "repo": "dekiengine/deki-http",
       "latest": "1.1.0",
       "minEngine": "1.2.0",
-      "requires": []
+      "requires": [],
+      "docs": "https://dekiengine.github.io/deki-http/"
     },
     {
       "id": "deki-i2c",
@@ -100,7 +108,8 @@
       "repo": "dekiengine/deki-i2c",
       "latest": "1.1.0",
       "minEngine": "1.2.0",
-      "requires": []
+      "requires": [],
+      "docs": "https://dekiengine.github.io/deki-i2c/"
     },
     {
       "id": "deki-i2s",
@@ -109,7 +118,8 @@
       "repo": "dekiengine/deki-i2s",
       "latest": "1.1.0",
       "minEngine": "1.2.0",
-      "requires": []
+      "requires": [],
+      "docs": "https://dekiengine.github.io/deki-i2s/"
     },
     {
       "id": "deki-imu",
@@ -120,7 +130,8 @@
       "minEngine": "1.2.0",
       "requires": [
         "deki-i2c"
-      ]
+      ],
+      "docs": "https://dekiengine.github.io/deki-imu/"
     },
     {
       "id": "deki-input",
@@ -131,7 +142,8 @@
       "minEngine": "1.2.0",
       "requires": [
         "deki-rendering"
-      ]
+      ],
+      "docs": "https://dekiengine.github.io/deki-input/"
     },
     {
       "id": "deki-json",
@@ -140,7 +152,8 @@
       "repo": "dekiengine/deki-json",
       "latest": "1.1.0",
       "minEngine": "1.2.0",
-      "requires": []
+      "requires": [],
+      "docs": "https://dekiengine.github.io/deki-json/"
     },
     {
       "id": "deki-lovyangfx-integration",
@@ -151,7 +164,8 @@
       "minEngine": "1.3.0",
       "requires": [
         "deki-i2c"
-      ]
+      ],
+      "docs": "https://dekiengine.github.io/deki-lovyangfx-integration/"
     },
     {
       "id": "deki-nodegraph",
@@ -160,7 +174,8 @@
       "repo": "dekiengine/deki-nodegraph",
       "latest": "1.1.0",
       "minEngine": "1.2.0",
-      "requires": []
+      "requires": [],
+      "docs": "https://dekiengine.github.io/deki-nodegraph/"
     },
     {
       "id": "deki-particles",
@@ -173,7 +188,8 @@
         "deki-nodegraph",
         "deki-rendering",
         "deki-2d"
-      ]
+      ],
+      "docs": "https://dekiengine.github.io/deki-particles/"
     },
     {
       "id": "deki-rendering",
@@ -182,7 +198,8 @@
       "repo": "dekiengine/deki-rendering",
       "latest": "1.2.0",
       "minEngine": "1.3.0",
-      "requires": []
+      "requires": [],
+      "docs": "https://dekiengine.github.io/deki-rendering/"
     },
     {
       "id": "deki-rtc",
@@ -193,7 +210,8 @@
       "minEngine": "1.2.0",
       "requires": [
         "deki-i2c"
-      ]
+      ],
+      "docs": "https://dekiengine.github.io/deki-rtc/"
     },
     {
       "id": "deki-sdcard",
@@ -202,7 +220,8 @@
       "repo": "dekiengine/deki-sdcard",
       "latest": "1.1.0",
       "minEngine": "1.2.0",
-      "requires": []
+      "requires": [],
+      "docs": "https://dekiengine.github.io/deki-sdcard/"
     },
     {
       "id": "deki-sdl3-integration",
@@ -213,7 +232,8 @@
       "minEngine": "1.3.0",
       "requires": [
         "deki-input"
-      ]
+      ],
+      "docs": "https://dekiengine.github.io/deki-sdl3-integration/"
     },
     {
       "id": "deki-tiledmapeditor-integration",
@@ -225,7 +245,8 @@
       "requires": [
         "deki-2d",
         "deki-rendering"
-      ]
+      ],
+      "docs": "https://dekiengine.github.io/deki-tiledmapeditor-integration/"
     },
     {
       "id": "deki-tween",
@@ -234,7 +255,8 @@
       "repo": "dekiengine/deki-tween",
       "latest": "1.1.0",
       "minEngine": "1.2.0",
-      "requires": []
+      "requires": [],
+      "docs": "https://dekiengine.github.io/deki-tween/"
     },
     {
       "id": "deki-uart",
@@ -243,7 +265,8 @@
       "repo": "dekiengine/deki-uart",
       "latest": "1.1.0",
       "minEngine": "1.2.0",
-      "requires": []
+      "requires": [],
+      "docs": "https://dekiengine.github.io/deki-uart/"
     },
     {
       "id": "deki-wifi",
@@ -252,7 +275,8 @@
       "repo": "dekiengine/deki-wifi",
       "latest": "1.1.0",
       "minEngine": "1.2.0",
-      "requires": []
+      "requires": [],
+      "docs": "https://dekiengine.github.io/deki-wifi/"
     }
   ]
 }
