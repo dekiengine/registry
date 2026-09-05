@@ -3,12 +3,13 @@
   "displayName": "UART",
   "description": "UART serial peripheral interface",
   "repo": "dekiengine/deki-uart",
-  "minEngine": "1.2.0",
+  "minEngine": "2.0.0",
   "versions": [
     "1.0.0",
-    "1.1.0"
+    "1.1.0",
+    "2.0.0"
   ],
-  "latest": "1.1.0",
+  "latest": "2.0.0",
   "requires": [],
   "docs": "https://dekiengine.github.io/deki-uart/"
 }

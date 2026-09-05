@@ -3,13 +3,14 @@
   "displayName": "Rendering",
   "description": "Core rendering system with camera and renderer components",
   "repo": "dekiengine/deki-rendering",
-  "minEngine": "1.3.0",
+  "minEngine": "2.0.0",
   "versions": [
     "1.0.0",
     "1.1.0",
-    "1.2.0"
+    "1.2.0",
+    "2.0.0"
   ],
-  "latest": "1.2.0",
+  "latest": "2.0.0",
   "requires": [],
   "docs": "https://dekiengine.github.io/deki-rendering/"
 }
