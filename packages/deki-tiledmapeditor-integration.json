@@ -3,14 +3,14 @@
   "displayName": "Tiled Map Editor Integration",
   "description": "Loads and renders maps authored in Tiled (.tmj) with chunk streaming",
   "repo": "dekiengine/deki-tiledmapeditor-integration",
-  "minEngine": "2.0.0",
+  "minEngine": "0.10.0",
   "versions": [
     "1.0.0",
     "1.1.0",
     "1.2.0",
-    "2.0.0"
+    "0.10.0"
   ],
-  "latest": "2.0.0",
+  "latest": "0.10.0",
   "requires": [
     "deki-2d",
     "deki-rendering"

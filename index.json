@@ -6,8 +6,8 @@
       "displayName": "2D",
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "repo": "dekiengine/deki-2d",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [
         "deki-rendering",
         "deki-input"
@@ -19,8 +19,8 @@
       "displayName": "Audio",
       "description": "Audio playback peripheral interface with MAX98357 (I²S) backend",
       "repo": "dekiengine/deki-audio",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [
         "deki-i2s"
       ],
@@ -31,8 +31,8 @@
       "displayName": "BLE",
       "description": "Bluetooth Low Energy interface: scanning, advertising, GATT server, connections",
       "repo": "dekiengine/deki-ble",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-ble/"
     },
@@ -41,8 +41,8 @@
       "displayName": "Desktop Integration",
       "description": "Desktop platform memory and filesystem providers",
       "repo": "dekiengine/deki-desktop-integration",
-      "latest": "2.0.1",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-desktop-integration/"
     },
@@ -51,8 +51,8 @@
       "displayName": "ESP32 Integration",
       "description": "ESP32 memory, filesystem, serial, and SD card providers",
       "repo": "dekiengine/deki-esp32-integration",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [
         "deki-wifi",
         "deki-ble",
@@ -69,8 +69,8 @@
       "displayName": "FSM",
       "description": "Visual state machines with per-state action stacks and event-wired transitions",
       "repo": "dekiengine/deki-fsm",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [
         "deki-nodegraph",
         "deki-2d",
@@ -83,8 +83,8 @@
       "displayName": "GPS",
       "description": "GPS peripheral interface and NMEA-over-UART backend",
       "repo": "dekiengine/deki-gps",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [
         "deki-http",
         "deki-uart"
@@ -96,8 +96,8 @@
       "displayName": "HTTP",
       "description": "HTTP client facade with WinHTTP and curl backends",
       "repo": "dekiengine/deki-http",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-http/"
     },
@@ -106,8 +106,8 @@
       "displayName": "I2C",
       "description": "I²C bus peripheral interface with an editor-configurable bus component",
       "repo": "dekiengine/deki-i2c",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-i2c/"
     },
@@ -116,8 +116,8 @@
       "displayName": "I2S",
       "description": "I²S audio bus peripheral interface",
       "repo": "dekiengine/deki-i2s",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-i2s/"
     },
@@ -126,8 +126,8 @@
       "displayName": "IMU",
       "description": "Accelerometer + gyroscope peripheral interface with LSM6DS3 backend (hardware pedometer)",
       "repo": "dekiengine/deki-imu",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [
         "deki-i2c"
       ],
@@ -138,8 +138,8 @@
       "displayName": "Input",
       "description": "Input handling and collision detection",
       "repo": "dekiengine/deki-input",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [
         "deki-rendering"
       ],
@@ -150,8 +150,8 @@
       "displayName": "JSON",
       "description": "JSON parsing and serialization backed by cJSON",
       "repo": "dekiengine/deki-json",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-json/"
     },
@@ -160,8 +160,8 @@
       "displayName": "LovyanGFX Integration",
       "description": "LovyanGFX display and touch panel integration",
       "repo": "dekiengine/deki-lovyangfx-integration",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [
         "deki-i2c"
       ],
@@ -172,8 +172,8 @@
       "displayName": "Node Graph",
       "description": "Generic node graph editor: canvas view, domains, undo, and node registration",
       "repo": "dekiengine/deki-nodegraph",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-nodegraph/"
     },
@@ -182,8 +182,8 @@
       "displayName": "Particles",
       "description": "Modular particle emitter (gravity, drag, velocity, lifetime modifiers)",
       "repo": "dekiengine/deki-particles",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [
         "deki-nodegraph",
         "deki-rendering",
@@ -196,8 +196,8 @@
       "displayName": "Rendering",
       "description": "Core rendering system with camera and renderer components",
       "repo": "dekiengine/deki-rendering",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-rendering/"
     },
@@ -206,8 +206,8 @@
       "displayName": "RTC",
       "description": "Real-time clock peripheral interface and DS3231 (I²C) backend",
       "repo": "dekiengine/deki-rtc",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [
         "deki-i2c"
       ],
@@ -218,8 +218,8 @@
       "displayName": "SD Card",
       "description": "SD card interface: mount, card state, capacity, and filesystem access",
       "repo": "dekiengine/deki-sdcard",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-sdcard/"
     },
@@ -228,8 +228,8 @@
       "displayName": "SDL3 Integration",
       "description": "SDL3 display, input, and filesystem integration",
       "repo": "dekiengine/deki-sdl3-integration",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [
         "deki-input"
       ],
@@ -240,8 +240,8 @@
       "displayName": "Tiled Map Editor Integration",
       "description": "Loads and renders maps authored in Tiled (.tmj) with chunk streaming",
       "repo": "dekiengine/deki-tiledmapeditor-integration",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [
         "deki-2d",
         "deki-rendering"
@@ -253,8 +253,8 @@
       "displayName": "Tween",
       "description": "Animation tweening with 30+ easing functions",
       "repo": "dekiengine/deki-tween",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-tween/"
     },
@@ -263,8 +263,8 @@
       "displayName": "UART",
       "description": "UART serial peripheral interface",
       "repo": "dekiengine/deki-uart",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-uart/"
     },
@@ -273,8 +273,8 @@
       "displayName": "WiFi",
       "description": "WiFi interface: connect, disconnect, state, and access point scanning",
       "repo": "dekiengine/deki-wifi",
-      "latest": "2.0.0",
-      "minEngine": "2.0.0",
+      "latest": "0.10.0",
+      "minEngine": "0.10.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-wifi/"
     }
