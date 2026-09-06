@@ -6,7 +6,7 @@
       "displayName": "2D",
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "repo": "dekiengine/deki-2d",
-      "latest": "0.10.1",
+      "latest": "0.10.2",
       "minEngine": "0.10.0",
       "requires": [
         "deki-rendering",
@@ -41,7 +41,7 @@
       "displayName": "Desktop Integration",
       "description": "Desktop platform memory and filesystem providers",
       "repo": "dekiengine/deki-desktop-integration",
-      "latest": "0.10.1",
+      "latest": "0.10.2",
       "minEngine": "0.10.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-desktop-integration/"
@@ -228,7 +228,7 @@
       "displayName": "SDL3 Integration",
       "description": "SDL3 display, input, and filesystem integration",
       "repo": "dekiengine/deki-sdl3-integration",
-      "latest": "0.10.0",
+      "latest": "0.10.1",
       "minEngine": "0.10.0",
       "requires": [
         "deki-input"
