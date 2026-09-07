@@ -3,12 +3,13 @@
   "displayName": "RTC",
   "description": "Real-time clock peripheral interface and DS3231 (I\u00b2C) backend",
   "repo": "dekiengine/deki-rtc",
-  "minEngine": "0.11.0",
+  "minEngine": "0.12.0",
   "versions": [
     "0.10.0",
-    "0.11.0"
+    "0.11.0",
+    "0.12.0"
   ],
-  "latest": "0.11.0",
+  "latest": "0.12.0",
   "requires": [
     "deki-i2c"
   ],

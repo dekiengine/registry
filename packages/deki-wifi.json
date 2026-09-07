@@ -3,12 +3,13 @@
   "displayName": "WiFi",
   "description": "WiFi interface: connect, disconnect, state, and access point scanning",
   "repo": "dekiengine/deki-wifi",
-  "minEngine": "0.11.0",
+  "minEngine": "0.12.0",
   "versions": [
     "0.10.0",
-    "0.11.0"
+    "0.11.0",
+    "0.12.0"
   ],
-  "latest": "0.11.0",
+  "latest": "0.12.0",
   "requires": [],
   "docs": "https://dekiengine.github.io/deki-wifi/"
 }
