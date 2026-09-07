@@ -228,7 +228,7 @@
       "displayName": "SDL3 Integration",
       "description": "SDL3 display, input, and filesystem integration",
       "repo": "dekiengine/deki-sdl3-integration",
-      "latest": "0.10.1",
+      "latest": "0.10.2",
       "minEngine": "0.10.0",
       "requires": [
         "deki-input"
