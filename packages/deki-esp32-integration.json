@@ -3,12 +3,13 @@
   "displayName": "ESP32 Integration",
   "description": "ESP32 memory, filesystem, serial, and SD card providers",
   "repo": "dekiengine/deki-esp32-integration",
-  "minEngine": "0.10.0",
+  "minEngine": "0.11.0",
   "versions": [
     "0.10.0",
-    "0.10.1"
+    "0.10.1",
+    "0.11.0"
   ],
-  "latest": "0.10.1",
+  "latest": "0.11.0",
   "requires": [
     "deki-wifi",
     "deki-ble",

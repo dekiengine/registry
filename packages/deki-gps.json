@@ -3,11 +3,12 @@
   "displayName": "GPS",
   "description": "GPS peripheral interface and NMEA-over-UART backend",
   "repo": "dekiengine/deki-gps",
-  "minEngine": "0.10.0",
+  "minEngine": "0.11.0",
   "versions": [
-    "0.10.0"
+    "0.10.0",
+    "0.11.0"
   ],
-  "latest": "0.10.0",
+  "latest": "0.11.0",
   "requires": [
     "deki-http",
     "deki-uart"
