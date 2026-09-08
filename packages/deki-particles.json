@@ -3,13 +3,14 @@
   "displayName": "Particles",
   "description": "Modular particle emitter (gravity, drag, velocity, lifetime modifiers)",
   "repo": "dekiengine/deki-particles",
-  "minEngine": "0.12.0",
+  "minEngine": "0.13.0",
   "versions": [
     "0.10.0",
     "0.11.0",
-    "0.12.0"
+    "0.12.0",
+    "0.13.0"
   ],
-  "latest": "0.12.0",
+  "latest": "0.13.0",
   "requires": [
     "deki-nodegraph",
     "deki-rendering",

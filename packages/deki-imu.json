@@ -3,13 +3,14 @@
   "displayName": "IMU",
   "description": "Accelerometer + gyroscope peripheral interface with LSM6DS3 backend (hardware pedometer)",
   "repo": "dekiengine/deki-imu",
-  "minEngine": "0.12.0",
+  "minEngine": "0.13.0",
   "versions": [
     "0.10.0",
     "0.11.0",
-    "0.12.0"
+    "0.12.0",
+    "0.13.0"
   ],
-  "latest": "0.12.0",
+  "latest": "0.13.0",
   "requires": [
     "deki-i2c"
   ],
