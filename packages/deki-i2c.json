@@ -1,16 +1,17 @@
 {
   "id": "deki-i2c",
   "displayName": "I2C",
-  "description": "I\u00b2C bus peripheral interface with an editor-configurable bus component",
+  "description": "I²C bus peripheral interface with an editor-configurable bus component",
   "repo": "dekiengine/deki-i2c",
-  "minEngine": "0.13.0",
+  "minEngine": "0.14.0",
   "versions": [
     "0.10.0",
     "0.11.0",
     "0.12.0",
-    "0.13.0"
+    "0.13.0",
+    "0.14.0"
   ],
-  "latest": "0.13.0",
+  "latest": "0.14.0",
   "requires": [],
   "docs": "https://dekiengine.github.io/deki-i2c/"
 }

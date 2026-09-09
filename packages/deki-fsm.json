@@ -3,14 +3,15 @@
   "displayName": "FSM",
   "description": "Visual state machines with per-state action stacks and event-wired transitions",
   "repo": "dekiengine/deki-fsm",
-  "minEngine": "0.13.0",
+  "minEngine": "0.14.0",
   "versions": [
     "0.10.0",
     "0.11.0",
     "0.12.0",
-    "0.13.0"
+    "0.13.0",
+    "0.14.0"
   ],
-  "latest": "0.13.0",
+  "latest": "0.14.0",
   "requires": [
     "deki-nodegraph",
     "deki-2d",
