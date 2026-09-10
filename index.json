@@ -6,7 +6,7 @@
       "displayName": "2D",
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "repo": "dekiengine/deki-2d",
-      "latest": "0.14.1",
+      "latest": "0.14.2",
       "minEngine": "0.14.0",
       "requires": [
         "deki-rendering",
@@ -51,7 +51,7 @@
       "displayName": "ESP32 Integration",
       "description": "ESP32 memory, filesystem, serial, and SD card providers",
       "repo": "dekiengine/deki-esp32-integration",
-      "latest": "0.14.0",
+      "latest": "0.14.1",
       "minEngine": "0.14.0",
       "requires": [
         "deki-wifi",
