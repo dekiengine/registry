@@ -6,7 +6,7 @@
       "displayName": "2D",
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "repo": "dekiengine/deki-2d",
-      "latest": "0.14.0",
+      "latest": "0.14.1",
       "minEngine": "0.14.0",
       "requires": [
         "deki-rendering",
