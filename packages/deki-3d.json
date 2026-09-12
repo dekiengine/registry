@@ -1,0 +1,15 @@
+{
+  "id": "deki-3d",
+  "displayName": "3D",
+  "description": "Software-rasterised 3D as a render pass: meshes, a perspective camera and .obj import, sharing one framebuffer with 2D",
+  "repo": "dekiengine/deki-3d",
+  "minEngine": "0.14.0",
+  "experimental": true,
+  "versions": [
+    "0.14.0"
+  ],
+  "latest": "0.14.0",
+  "requires": [
+    "deki-rendering"
+  ]
+}

@@ -14,8 +14,14 @@ import pathlib
 import sys
 
 ROOT = pathlib.Path(__file__).parent
+# Every entry must carry these.
 INDEX_FIELDS = ("id", "displayName", "description", "repo", "latest", "minEngine",
-                "requires", "docs")
+                "requires")
+
+# Carried through when present, left out when not. "docs" is absent until a
+# package has a documentation site; "experimental" marks one published to be
+# tried rather than depended on, and the editor shows it next to the package.
+OPTIONAL_INDEX_FIELDS = ("docs", "experimental")
 
 def main() -> int:
     entries = []
@@ -27,7 +33,11 @@ def main() -> int:
         if pkg["latest"] not in pkg.get("versions", []):
             print(f"{path.name}: latest '{pkg['latest']}' is not in versions", file=sys.stderr)
             return 1
-        entries.append({k: pkg[k] for k in INDEX_FIELDS})
+        entry = {k: pkg[k] for k in INDEX_FIELDS}
+        for k in OPTIONAL_INDEX_FIELDS:
+            if k in pkg:
+                entry[k] = pkg[k]
+        entries.append(entry)
 
     index = {"schemaVersion": 1, "packages": entries}
     (ROOT / "index.json").write_text(
