@@ -6,7 +6,7 @@
       "displayName": "2D",
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "repo": "dekiengine/deki-2d",
-      "latest": "0.14.2",
+      "latest": "0.14.3",
       "minEngine": "0.14.0",
       "requires": [
         "deki-rendering",
@@ -53,7 +53,7 @@
       "displayName": "Desktop Integration",
       "description": "Desktop platform memory and filesystem providers",
       "repo": "dekiengine/deki-desktop-integration",
-      "latest": "0.14.0",
+      "latest": "0.14.1",
       "minEngine": "0.14.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-desktop-integration/"
@@ -63,7 +63,7 @@
       "displayName": "ESP32 Integration",
       "description": "ESP32 memory, filesystem, serial, and SD card providers",
       "repo": "dekiengine/deki-esp32-integration",
-      "latest": "0.14.1",
+      "latest": "0.14.2",
       "minEngine": "0.14.0",
       "requires": [
         "deki-wifi",
@@ -108,7 +108,7 @@
       "displayName": "HTTP",
       "description": "HTTP client facade with WinHTTP and curl backends",
       "repo": "dekiengine/deki-http",
-      "latest": "0.14.0",
+      "latest": "0.14.1",
       "minEngine": "0.14.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-http/"
@@ -172,7 +172,7 @@
       "displayName": "LovyanGFX Integration",
       "description": "LovyanGFX display and touch panel integration",
       "repo": "dekiengine/deki-lovyangfx-integration",
-      "latest": "0.14.0",
+      "latest": "0.14.1",
       "minEngine": "0.14.0",
       "requires": [
         "deki-i2c"
@@ -240,7 +240,7 @@
       "displayName": "SDL3 Integration",
       "description": "SDL3 display, input, and filesystem integration",
       "repo": "dekiengine/deki-sdl3-integration",
-      "latest": "0.14.0",
+      "latest": "0.14.1",
       "minEngine": "0.14.0",
       "requires": [
         "deki-input"
