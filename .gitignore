@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.claude/
+.vs/
+.vscode/
+*.tmp
+*.log
