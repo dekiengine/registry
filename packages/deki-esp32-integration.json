@@ -24,7 +24,8 @@
     "deki-i2s",
     "deki-uart",
     "deki-i2c",
-    "deki-sdcard"
+    "deki-sdcard",
+    "deki-rendering"
   ],
   "docs": "https://dekiengine.github.io/deki-esp32-integration/"
 }
