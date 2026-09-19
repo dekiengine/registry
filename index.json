@@ -249,6 +249,18 @@
       "docs": "https://dekiengine.github.io/deki-sdl3-integration/"
     },
     {
+      "id": "deki-tactility-integration",
+      "displayName": "Tactility Integration",
+      "description": "Runs a Deki game as a Tactility app. Builds and installs into the Tactility simulator; the on-device build is not written yet",
+      "repo": "dekiengine/deki-tactility-integration",
+      "latest": "0.17.0",
+      "minEngine": "0.17.0",
+      "requires": [
+        "deki-input"
+      ],
+      "experimental": true
+    },
+    {
       "id": "deki-tiledmapeditor-integration",
       "displayName": "Tiled Map Editor Integration",
       "description": "Loads and renders maps authored in Tiled (.tmj) with chunk streaming",
