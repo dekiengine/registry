@@ -13,5 +13,6 @@
   "latest": "0.16.0",
   "requires": [
     "deki-rendering"
-  ]
+  ],
+  "docs": "https://dekiengine.github.io/deki-3d/"
 }

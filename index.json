@@ -24,6 +24,7 @@
       "requires": [
         "deki-rendering"
       ],
+      "docs": "https://dekiengine.github.io/deki-3d/",
       "experimental": true
     },
     {
