@@ -170,6 +170,19 @@
       "docs": "https://dekiengine.github.io/deki-json/"
     },
     {
+      "id": "deki-lilygo-boards",
+      "displayName": "LilyGO Boards",
+      "description": "Build targets for LilyGO boards: T-Deck Plus and T-Display S3 AMOLED. Builds with ESP-IDF; not yet run on hardware",
+      "repo": "dekiengine/deki-lilygo-boards",
+      "latest": "0.17.0",
+      "minEngine": "0.17.0",
+      "requires": [
+        "deki-esp32-integration",
+        "deki-lovyangfx-integration"
+      ],
+      "experimental": true
+    },
+    {
       "id": "deki-lovyangfx-integration",
       "displayName": "LovyanGFX Integration",
       "description": "LovyanGFX display and touch panel integration",
