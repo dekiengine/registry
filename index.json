@@ -93,6 +93,16 @@
       "docs": "https://dekiengine.github.io/deki-fsm/"
     },
     {
+      "id": "deki-gpio",
+      "displayName": "GPIO",
+      "description": "Digital pins: drive, read, and count a pin's pulses by interrupt, plus a boot step that drives a pin. The platform package supplies the backend",
+      "repo": "dekiengine/deki-gpio",
+      "latest": "0.17.0",
+      "minEngine": "0.16.0",
+      "requires": [],
+      "experimental": true
+    },
+    {
       "id": "deki-gps",
       "displayName": "GPS",
       "description": "GPS peripheral interface and NMEA-over-UART backend",
@@ -172,13 +182,17 @@
     {
       "id": "deki-lilygo-boards",
       "displayName": "LilyGO Boards",
-      "description": "Build targets for LilyGO boards: T-Deck Plus and T-Display S3 AMOLED. Builds with ESP-IDF; not yet run on hardware",
+      "description": "Build targets for LilyGO boards: T-Deck Plus (display, touch, keyboard, trackball, SD card) and T-Display S3 AMOLED. Builds with ESP-IDF; not yet run on hardware",
       "repo": "dekiengine/deki-lilygo-boards",
-      "latest": "0.17.0",
+      "latest": "0.17.1",
       "minEngine": "0.17.0",
       "requires": [
         "deki-esp32-integration",
-        "deki-lovyangfx-integration"
+        "deki-lovyangfx-integration",
+        "deki-input",
+        "deki-i2c",
+        "deki-gpio",
+        "deki-sdcard"
       ],
       "experimental": true
     },
