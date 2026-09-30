@@ -3,11 +3,12 @@
   "displayName": "GPIO",
   "description": "Digital pins: drive, read, and count a pin's pulses by interrupt, plus a boot step that drives a pin. The platform package supplies the backend",
   "repo": "dekiengine/deki-gpio",
-  "minEngine": "0.16.0",
+  "minEngine": "0.17.0",
   "experimental": true,
   "versions": [
-    "0.17.0"
+    "0.17.0",
+    "0.17.1"
   ],
-  "latest": "0.17.0",
+  "latest": "0.17.1",
   "requires": []
 }

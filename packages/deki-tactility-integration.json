@@ -6,9 +6,10 @@
   "minEngine": "0.17.0",
   "experimental": true,
   "versions": [
-    "0.17.0"
+    "0.17.0",
+    "0.17.1"
   ],
-  "latest": "0.17.0",
+  "latest": "0.17.1",
   "requires": [
     "deki-input"
   ]

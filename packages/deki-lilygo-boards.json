@@ -7,9 +7,10 @@
   "experimental": true,
   "versions": [
     "0.17.0",
-    "0.17.1"
+    "0.17.1",
+    "0.17.2"
   ],
-  "latest": "0.17.1",
+  "latest": "0.17.2",
   "requires": [
     "deki-esp32-integration",
     "deki-lovyangfx-integration",
