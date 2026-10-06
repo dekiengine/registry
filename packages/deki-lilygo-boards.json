@@ -3,14 +3,15 @@
   "displayName": "LilyGO Boards",
   "description": "Build targets for LilyGO boards: T-Deck Plus (display, touch, keyboard, trackball, SD card) and T-Display S3 AMOLED. Builds with ESP-IDF; not yet run on hardware",
   "repo": "dekiengine/deki-lilygo-boards",
-  "minEngine": "0.17.0",
+  "minEngine": "0.18.0",
   "experimental": true,
   "versions": [
     "0.17.0",
     "0.17.1",
-    "0.17.2"
+    "0.17.2",
+    "0.18.0"
   ],
-  "latest": "0.17.2",
+  "latest": "0.18.0",
   "requires": [
     "deki-esp32-integration",
     "deki-lovyangfx-integration",
