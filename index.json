@@ -6,7 +6,7 @@
       "displayName": "2D",
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "repo": "dekiengine/deki-2d",
-      "latest": "0.18.0",
+      "latest": "0.18.2",
       "minEngine": "0.18.0",
       "requires": [
         "deki-rendering",
@@ -64,8 +64,8 @@
       "displayName": "ESP32 Integration",
       "description": "ESP32 memory, filesystem, serial, and SD card providers",
       "repo": "dekiengine/deki-esp32-integration",
-      "latest": "0.18.0",
-      "minEngine": "0.18.0",
+      "latest": "0.18.2",
+      "minEngine": "0.18.2",
       "requires": [
         "deki-wifi",
         "deki-ble",
@@ -84,7 +84,7 @@
       "displayName": "FSM",
       "description": "Visual state machines with per-state action stacks and event-wired transitions",
       "repo": "dekiengine/deki-fsm",
-      "latest": "0.18.0",
+      "latest": "0.18.2",
       "minEngine": "0.18.0",
       "requires": [
         "deki-nodegraph",
@@ -108,7 +108,7 @@
       "displayName": "GPS",
       "description": "GPS peripheral interface and NMEA-over-UART backend",
       "repo": "dekiengine/deki-gps",
-      "latest": "0.18.0",
+      "latest": "0.18.2",
       "minEngine": "0.18.0",
       "requires": [
         "deki-http",
@@ -163,7 +163,7 @@
       "displayName": "Input",
       "description": "Input handling and collision detection",
       "repo": "dekiengine/deki-input",
-      "latest": "0.18.0",
+      "latest": "0.18.2",
       "minEngine": "0.18.0",
       "requires": [
         "deki-rendering"
@@ -185,7 +185,7 @@
       "displayName": "LilyGO Boards",
       "description": "Build targets for LilyGO boards: T-Deck Plus (display, touch, keyboard, trackball, SD card) and T-Display S3 AMOLED. Builds with ESP-IDF; not yet run on hardware",
       "repo": "dekiengine/deki-lilygo-boards",
-      "latest": "0.18.0",
+      "latest": "0.18.2",
       "minEngine": "0.18.0",
       "requires": [
         "deki-esp32-integration",
@@ -193,16 +193,27 @@
         "deki-input",
         "deki-i2c",
         "deki-gpio",
-        "deki-sdcard"
+        "deki-sdcard",
+        "deki-gps",
+        "deki-lora"
       ],
       "experimental": true
+    },
+    {
+      "id": "deki-lora",
+      "displayName": "LoRa (SX1262)",
+      "description": "LoRa radio: an SX1262 driver with a duty-cycle limit, sending and receiving packets",
+      "repo": "dekiengine/deki-lora",
+      "latest": "0.18.2",
+      "minEngine": "0.18.0",
+      "requires": []
     },
     {
       "id": "deki-lovyangfx-integration",
       "displayName": "LovyanGFX Integration",
       "description": "LovyanGFX display and touch panel integration",
       "repo": "dekiengine/deki-lovyangfx-integration",
-      "latest": "0.18.0",
+      "latest": "0.18.2",
       "minEngine": "0.18.0",
       "requires": [
         "deki-i2c"
@@ -224,7 +235,7 @@
       "displayName": "Particles",
       "description": "Modular particle emitter (gravity, drag, velocity, lifetime modifiers)",
       "repo": "dekiengine/deki-particles",
-      "latest": "0.18.0",
+      "latest": "0.18.2",
       "minEngine": "0.18.0",
       "requires": [
         "deki-nodegraph",
@@ -238,7 +249,7 @@
       "displayName": "Rendering",
       "description": "Core rendering system with camera and renderer components",
       "repo": "dekiengine/deki-rendering",
-      "latest": "0.18.0",
+      "latest": "0.18.2",
       "minEngine": "0.18.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-rendering/"
