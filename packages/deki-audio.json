@@ -1,9 +1,9 @@
 {
   "id": "deki-audio",
   "displayName": "Audio",
-  "description": "Audio playback peripheral interface with MAX98357 (I\u00b2S) backend",
+  "description": "Audio playback peripheral interface with MAX98357 (I²S) backend",
   "repo": "dekiengine/deki-audio",
-  "minEngine": "0.18.0",
+  "minEngine": "0.19.0",
   "versions": [
     "0.10.0",
     "0.11.0",
@@ -13,9 +13,10 @@
     "0.15.0",
     "0.16.0",
     "0.17.0",
-    "0.18.0"
+    "0.18.0",
+    "0.19.0"
   ],
-  "latest": "0.18.0",
+  "latest": "0.19.0",
   "requires": [
     "deki-i2s"
   ],
