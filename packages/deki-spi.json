@@ -1,0 +1,13 @@
+{
+  "id": "deki-spi",
+  "displayName": "SPI",
+  "description": "SPI buses and their devices: a boot step that starts a bus, shared by displays, SD cards and radios. The platform package supplies the backend",
+  "repo": "dekiengine/deki-spi",
+  "minEngine": "0.20.0",
+  "versions": [
+    "0.20.0"
+  ],
+  "latest": "0.20.0",
+  "requires": [],
+  "docs": "https://dekiengine.github.io/deki-spi/"
+}

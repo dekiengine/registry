@@ -6,8 +6,8 @@
       "displayName": "2D",
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "repo": "dekiengine/deki-2d",
-      "latest": "0.19.0",
-      "minEngine": "0.19.0",
+      "latest": "0.20.0",
+      "minEngine": "0.20.0",
       "requires": [
         "deki-rendering",
         "deki-input"
@@ -32,7 +32,7 @@
       "displayName": "Audio",
       "description": "Audio playback peripheral interface with MAX98357 (I²S) backend",
       "repo": "dekiengine/deki-audio",
-      "latest": "0.19.0",
+      "latest": "0.20.0",
       "minEngine": "0.19.0",
       "requires": [
         "deki-i2s"
@@ -60,12 +60,28 @@
       "docs": "https://dekiengine.github.io/deki-desktop-integration/"
     },
     {
+      "id": "deki-display",
+      "displayName": "Display",
+      "description": "Deki's own display library: panel controllers on SPI, quad SPI or 8- and 16-bit parallel buses, touch controllers, and frames that never tear",
+      "repo": "dekiengine/deki-display",
+      "latest": "0.20.0",
+      "minEngine": "0.20.0",
+      "requires": [
+        "deki-spi",
+        "deki-gpio",
+        "deki-i2c",
+        "deki-input",
+        "deki-rendering"
+      ],
+      "docs": "https://dekiengine.github.io/deki-display/"
+    },
+    {
       "id": "deki-esp32-integration",
       "displayName": "ESP32 Integration",
       "description": "ESP32 memory, filesystem, serial, and SD card providers",
       "repo": "dekiengine/deki-esp32-integration",
-      "latest": "0.19.0",
-      "minEngine": "0.19.0",
+      "latest": "0.20.0",
+      "minEngine": "0.20.0",
       "requires": [
         "deki-wifi",
         "deki-ble",
@@ -98,7 +114,7 @@
       "displayName": "GPIO",
       "description": "Digital pins: drive, read, and count a pin's pulses by interrupt, plus a boot step that drives a pin. The platform package supplies the backend",
       "repo": "dekiengine/deki-gpio",
-      "latest": "0.19.0",
+      "latest": "0.20.0",
       "minEngine": "0.19.0",
       "requires": [],
       "experimental": true
@@ -108,7 +124,7 @@
       "displayName": "GPS",
       "description": "GPS peripheral interface and NMEA-over-UART backend",
       "repo": "dekiengine/deki-gps",
-      "latest": "0.19.0",
+      "latest": "0.20.0",
       "minEngine": "0.19.0",
       "requires": [
         "deki-http",
@@ -121,7 +137,7 @@
       "displayName": "HTTP",
       "description": "HTTP client facade with WinHTTP and curl backends",
       "repo": "dekiengine/deki-http",
-      "latest": "0.19.0",
+      "latest": "0.20.0",
       "minEngine": "0.19.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-http/"
@@ -131,7 +147,7 @@
       "displayName": "I2C",
       "description": "I²C bus peripheral interface with an editor-configurable bus component",
       "repo": "dekiengine/deki-i2c",
-      "latest": "0.19.0",
+      "latest": "0.20.0",
       "minEngine": "0.19.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-i2c/"
@@ -151,7 +167,7 @@
       "displayName": "IMU",
       "description": "Accelerometer + gyroscope peripheral interface with LSM6DS3 backend (hardware pedometer)",
       "repo": "dekiengine/deki-imu",
-      "latest": "0.19.0",
+      "latest": "0.20.0",
       "minEngine": "0.19.0",
       "requires": [
         "deki-i2c"
@@ -163,11 +179,9 @@
       "displayName": "Input",
       "description": "Input handling and collision detection",
       "repo": "dekiengine/deki-input",
-      "latest": "0.19.0",
+      "latest": "0.20.0",
       "minEngine": "0.19.0",
-      "requires": [
-        "deki-rendering"
-      ],
+      "requires": [],
       "docs": "https://dekiengine.github.io/deki-input/"
     },
     {
@@ -185,11 +199,11 @@
       "displayName": "LilyGO Boards",
       "description": "Build targets for LilyGO boards: T-Deck Plus (display, touch, keyboard, trackball, SD card) and T-Display S3 AMOLED. Builds with ESP-IDF; not yet run on hardware",
       "repo": "dekiengine/deki-lilygo-boards",
-      "latest": "0.19.0",
-      "minEngine": "0.19.0",
+      "latest": "0.20.0",
+      "minEngine": "0.20.0",
       "requires": [
         "deki-esp32-integration",
-        "deki-lovyangfx-integration",
+        "deki-display",
         "deki-input",
         "deki-i2c",
         "deki-gpio",
@@ -204,7 +218,7 @@
       "displayName": "LoRa (SX1262)",
       "description": "LoRa radio: an SX1262 driver with a duty-cycle limit, sending and receiving packets",
       "repo": "dekiengine/deki-lora",
-      "latest": "0.19.0",
+      "latest": "0.20.0",
       "minEngine": "0.19.0",
       "requires": []
     },
@@ -213,10 +227,11 @@
       "displayName": "LovyanGFX Integration",
       "description": "LovyanGFX display and touch panel integration",
       "repo": "dekiengine/deki-lovyangfx-integration",
-      "latest": "0.19.0",
+      "latest": "0.20.0",
       "minEngine": "0.19.0",
       "requires": [
-        "deki-i2c"
+        "deki-i2c",
+        "deki-input"
       ],
       "docs": "https://dekiengine.github.io/deki-lovyangfx-integration/"
     },
@@ -235,8 +250,8 @@
       "displayName": "Particles",
       "description": "Modular particle emitter (gravity, drag, velocity, lifetime modifiers)",
       "repo": "dekiengine/deki-particles",
-      "latest": "0.19.0",
-      "minEngine": "0.19.0",
+      "latest": "0.20.0",
+      "minEngine": "0.20.0",
       "requires": [
         "deki-nodegraph",
         "deki-rendering",
@@ -249,8 +264,8 @@
       "displayName": "Rendering",
       "description": "Core rendering system with camera and renderer components",
       "repo": "dekiengine/deki-rendering",
-      "latest": "0.19.0",
-      "minEngine": "0.19.0",
+      "latest": "0.20.0",
+      "minEngine": "0.20.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-rendering/"
     },
@@ -259,7 +274,7 @@
       "displayName": "RTC",
       "description": "Real-time clock peripheral interface and DS3231 (I²C) backend",
       "repo": "dekiengine/deki-rtc",
-      "latest": "0.19.0",
+      "latest": "0.20.0",
       "minEngine": "0.19.0",
       "requires": [
         "deki-i2c"
@@ -287,6 +302,16 @@
         "deki-input"
       ],
       "docs": "https://dekiengine.github.io/deki-sdl3-integration/"
+    },
+    {
+      "id": "deki-spi",
+      "displayName": "SPI",
+      "description": "SPI buses and their devices: a boot step that starts a bus, shared by displays, SD cards and radios. The platform package supplies the backend",
+      "repo": "dekiengine/deki-spi",
+      "latest": "0.20.0",
+      "minEngine": "0.20.0",
+      "requires": [],
+      "docs": "https://dekiengine.github.io/deki-spi/"
     },
     {
       "id": "deki-tactility-integration",
