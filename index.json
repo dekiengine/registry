@@ -318,7 +318,7 @@
       "displayName": "Tactility Integration",
       "description": "Runs a Deki game as a Tactility app. Builds and installs into the Tactility simulator; the on-device build is not written yet",
       "repo": "dekiengine/deki-tactility-integration",
-      "latest": "0.19.0",
+      "latest": "0.20.3",
       "minEngine": "0.19.0",
       "requires": [
         "deki-input"
