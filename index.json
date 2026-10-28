@@ -6,8 +6,8 @@
       "displayName": "2D",
       "description": "Sprites, text, animations, gradients, buttons, scrolling",
       "repo": "dekiengine/deki-2d",
-      "latest": "0.20.1",
-      "minEngine": "0.20.0",
+      "latest": "0.21.0",
+      "minEngine": "0.21.0",
       "requires": [
         "deki-rendering",
         "deki-input"
@@ -54,7 +54,7 @@
       "displayName": "Desktop Integration",
       "description": "Desktop platform memory and filesystem providers",
       "repo": "dekiengine/deki-desktop-integration",
-      "latest": "0.19.0",
+      "latest": "0.21.0",
       "minEngine": "0.19.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-desktop-integration/"
@@ -64,8 +64,8 @@
       "displayName": "Display",
       "description": "Deki's own display library: panel controllers on SPI, quad SPI or 8- and 16-bit parallel buses, touch controllers, and frames that never tear",
       "repo": "dekiengine/deki-display",
-      "latest": "0.20.0",
-      "minEngine": "0.20.0",
+      "latest": "0.21.0",
+      "minEngine": "0.21.0",
       "requires": [
         "deki-spi",
         "deki-gpio",
@@ -80,8 +80,8 @@
       "displayName": "ESP32 Integration",
       "description": "ESP32 memory, filesystem, serial, and SD card providers",
       "repo": "dekiengine/deki-esp32-integration",
-      "latest": "0.20.0",
-      "minEngine": "0.20.0",
+      "latest": "0.21.0",
+      "minEngine": "0.21.0",
       "requires": [
         "deki-wifi",
         "deki-ble",
@@ -179,8 +179,8 @@
       "displayName": "Input",
       "description": "Input handling and collision detection",
       "repo": "dekiengine/deki-input",
-      "latest": "0.20.0",
-      "minEngine": "0.19.0",
+      "latest": "0.21.0",
+      "minEngine": "0.21.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-input/"
     },
@@ -199,8 +199,8 @@
       "displayName": "LilyGO Boards",
       "description": "Build targets for LilyGO boards: T-Deck Plus (display, touch, keyboard, trackball, SD card) and T-Display S3 AMOLED. Builds with ESP-IDF; not yet run on hardware",
       "repo": "dekiengine/deki-lilygo-boards",
-      "latest": "0.20.0",
-      "minEngine": "0.20.0",
+      "latest": "0.21.0",
+      "minEngine": "0.21.0",
       "requires": [
         "deki-esp32-integration",
         "deki-display",
@@ -227,7 +227,7 @@
       "displayName": "LovyanGFX Integration",
       "description": "LovyanGFX display and touch panel integration",
       "repo": "dekiengine/deki-lovyangfx-integration",
-      "latest": "0.20.0",
+      "latest": "0.21.0",
       "minEngine": "0.19.0",
       "requires": [
         "deki-i2c",
@@ -250,8 +250,8 @@
       "displayName": "Particles",
       "description": "Modular particle emitter (gravity, drag, velocity, lifetime modifiers)",
       "repo": "dekiengine/deki-particles",
-      "latest": "0.20.0",
-      "minEngine": "0.20.0",
+      "latest": "0.21.0",
+      "minEngine": "0.21.0",
       "requires": [
         "deki-nodegraph",
         "deki-rendering",
@@ -264,8 +264,8 @@
       "displayName": "Rendering",
       "description": "Core rendering system with camera and renderer components",
       "repo": "dekiengine/deki-rendering",
-      "latest": "0.20.0",
-      "minEngine": "0.20.0",
+      "latest": "0.21.0",
+      "minEngine": "0.21.0",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-rendering/"
     },
@@ -296,8 +296,8 @@
       "displayName": "SDL3 Integration",
       "description": "SDL3 display, input, and filesystem integration",
       "repo": "dekiengine/deki-sdl3-integration",
-      "latest": "0.19.0",
-      "minEngine": "0.19.0",
+      "latest": "0.21.0",
+      "minEngine": "0.21.0",
       "requires": [
         "deki-input"
       ],
@@ -318,7 +318,7 @@
       "displayName": "Tactility Integration",
       "description": "Runs a Deki game as a Tactility app. Builds and installs into the Tactility simulator; the on-device build is not written yet",
       "repo": "dekiengine/deki-tactility-integration",
-      "latest": "0.20.3",
+      "latest": "0.21.0",
       "minEngine": "0.19.0",
       "requires": [
         "deki-input"
@@ -330,8 +330,8 @@
       "displayName": "Tiled Map Editor Integration",
       "description": "Loads and renders maps authored in Tiled (.tmj) with chunk streaming",
       "repo": "dekiengine/deki-tiledmapeditor-integration",
-      "latest": "0.19.0",
-      "minEngine": "0.19.0",
+      "latest": "0.21.0",
+      "minEngine": "0.21.0",
       "requires": [
         "deki-2d",
         "deki-rendering"

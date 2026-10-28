@@ -3,11 +3,12 @@
   "displayName": "Display",
   "description": "Deki's own display library: panel controllers on SPI, quad SPI or 8- and 16-bit parallel buses, touch controllers, and frames that never tear",
   "repo": "dekiengine/deki-display",
-  "minEngine": "0.20.0",
+  "minEngine": "0.21.0",
   "versions": [
-    "0.20.0"
+    "0.20.0",
+    "0.21.0"
   ],
-  "latest": "0.20.0",
+  "latest": "0.21.0",
   "requires": [
     "deki-spi",
     "deki-gpio",
