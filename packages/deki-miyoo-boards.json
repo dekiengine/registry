@@ -1,0 +1,16 @@
+{
+  "id": "deki-miyoo-boards",
+  "displayName": "Miyoo Boards",
+  "description": "Build target for the Miyoo Mini: builds a game and installs it on the SD card, stock firmware or Onion OS. Tested on Onion",
+  "repo": "dekiengine/deki-miyoo-boards",
+  "minEngine": "0.30.0",
+  "experimental": true,
+  "versions": [
+    "0.30.0"
+  ],
+  "latest": "0.30.0",
+  "requires": [
+    "deki-input"
+  ],
+  "docs": "https://dekiengine.github.io/deki-miyoo-boards/"
+}
