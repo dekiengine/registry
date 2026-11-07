@@ -54,8 +54,8 @@
       "displayName": "Desktop Integration",
       "description": "Desktop platform memory and filesystem providers",
       "repo": "dekiengine/deki-desktop-integration",
-      "latest": "0.30.0",
-      "minEngine": "0.30.0",
+      "latest": "0.30.2",
+      "minEngine": "0.30.2",
       "requires": [],
       "docs": "https://dekiengine.github.io/deki-desktop-integration/"
     },
