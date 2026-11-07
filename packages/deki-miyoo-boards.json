@@ -11,6 +11,5 @@
   "latest": "0.30.0",
   "requires": [
     "deki-input"
-  ],
-  "docs": "https://dekiengine.github.io/deki-miyoo-boards/"
+  ]
 }
