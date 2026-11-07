@@ -19,7 +19,7 @@
       "displayName": "3D",
       "description": "Software-rasterised 3D as a render pass: meshes, a perspective camera and .obj import, sharing one framebuffer with 2D",
       "repo": "dekiengine/deki-3d",
-      "latest": "0.30.0",
+      "latest": "0.30.3",
       "minEngine": "0.30.0",
       "requires": [
         "deki-rendering"
@@ -64,7 +64,7 @@
       "displayName": "Display",
       "description": "Deki's own display library: panel controllers on SPI, quad SPI or 8- and 16-bit parallel buses, touch controllers, and frames that never tear",
       "repo": "dekiengine/deki-display",
-      "latest": "0.30.0",
+      "latest": "0.30.3",
       "minEngine": "0.30.0",
       "requires": [
         "deki-spi",
