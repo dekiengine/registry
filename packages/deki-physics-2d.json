@@ -1,0 +1,12 @@
+{
+  "id": "deki-physics-2d",
+  "displayName": "Physics 2D",
+  "description": "2D rigid-body physics: bodies, colliders, triggers, joints and raycasts on a fixed step",
+  "repo": "dekiengine/deki-physics-2d",
+  "minEngine": "0.40.0",
+  "versions": [
+    "0.40.0"
+  ],
+  "latest": "0.40.0",
+  "requires": []
+}
