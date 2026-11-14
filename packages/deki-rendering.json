@@ -3,7 +3,7 @@
   "displayName": "Rendering",
   "description": "Core rendering system with camera and renderer components",
   "repo": "dekiengine/deki-rendering",
-  "minEngine": "0.30.0",
+  "minEngine": "0.40.0",
   "versions": [
     "0.10.0",
     "0.10.1",
@@ -20,9 +20,10 @@
     "0.20.0",
     "0.21.0",
     "0.22.0",
-    "0.30.0"
+    "0.30.0",
+    "0.40.0"
   ],
-  "latest": "0.30.0",
+  "latest": "0.40.0",
   "requires": [],
   "docs": "https://dekiengine.github.io/deki-rendering/"
 }

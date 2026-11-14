@@ -1,0 +1,16 @@
+{
+  "id": "deki-anbernic-boards",
+  "displayName": "Anbernic Boards",
+  "description": "Build target for the Anbernic RG40XX H: builds a game for its stock firmware and installs it on the SD card or over Wi-Fi",
+  "repo": "dekiengine/deki-anbernic-boards",
+  "minEngine": "0.40.0",
+  "experimental": true,
+  "versions": [
+    "0.40.0"
+  ],
+  "latest": "0.40.0",
+  "requires": [
+    "deki-input",
+    "deki-rendering"
+  ]
+}
