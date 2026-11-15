@@ -1,7 +1,7 @@
 {
   "id": "deki-tactility-integration",
   "displayName": "Tactility Integration",
-  "description": "Runs a Deki game as a Tactility app. Builds and installs into the Tactility simulator; the on-device build is not written yet",
+  "description": "Runs a Deki game as a Tactility app. Builds and installs a device app or into the Tactility simulator. Experimental",
   "repo": "dekiengine/deki-tactility-integration",
   "minEngine": "0.40.0",
   "experimental": true,

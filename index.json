@@ -210,7 +210,7 @@
     {
       "id": "deki-lilygo-boards",
       "displayName": "LilyGO Boards",
-      "description": "Build targets for LilyGO boards: T-Deck Plus (display, touch, keyboard, trackball, SD card) and T-Display S3 AMOLED. Builds with ESP-IDF; not yet run on hardware",
+      "description": "Build targets for LilyGO boards: T-Deck and T-Deck Plus (display, touch, keyboard, trackball, SD card, GPS, LoRa) and T-Display S3 AMOLED. Builds with ESP-IDF and runs on hardware",
       "repo": "dekiengine/deki-lilygo-boards",
       "latest": "0.40.0",
       "minEngine": "0.40.0",
@@ -350,7 +350,7 @@
     {
       "id": "deki-tactility-integration",
       "displayName": "Tactility Integration",
-      "description": "Runs a Deki game as a Tactility app. Builds and installs into the Tactility simulator; the on-device build is not written yet",
+      "description": "Runs a Deki game as a Tactility app. Builds and installs a device app or into the Tactility simulator. Experimental",
       "repo": "dekiengine/deki-tactility-integration",
       "latest": "0.40.0",
       "minEngine": "0.40.0",
